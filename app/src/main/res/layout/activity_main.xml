@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.udacity.myapplication.MainActivity">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginTop="0dp"
+    android:layout_weight="4"
+    android:scaleType="centerCrop"
+    android:src="@drawable/pic1"/>
+
+<TextView
+    style="@style/text"
+    android:layout_height="@dimen/textview_height"
+    android:layout_marginLeft="@dimen/textview_marginLeft"
+    android:layout_weight="@dimen/textview_weight"
+    android:text="@string/name"
+    android:textSize="@dimen/font2_size"
+    />
+
+<TextView
+    style="@style/text"
+    android:layout_height="@dimen/textview_height"
+    android:layout_marginLeft="@dimen/textview_marginLeft"
+    android:layout_weight="@dimen/textview_weight"
+    android:autoLink="map"
+    android:text="@string/address"
+    android:textSize="@dimen/font_size"/>
+
+<TextView
+    style="@style/text"
+    android:layout_height="@dimen/textview_height"
+    android:layout_marginLeft="@dimen/textview_marginLeft"
+    android:layout_weight="@dimen/textview_weight"
+    android:autoLink="web"
+    android:text="@string/url"
+    android:textSize="@dimen/font_size"/>
+
+<TextView
+    style="@style/text"
+    android:layout_height="@dimen/textview_height"
+    android:layout_marginLeft="@dimen/textview_marginLeft"
+    android:layout_weight="@dimen/textview_weight"
+    android:autoLink="phone"
+    android:text="@string/phone"
+    android:textSize="@dimen/font_size"/>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginBottom="30dp"
+    android:layout_weight="1"
+    android:scaleType="fitCenter"
+    android:src="@drawable/logo"/>
+
+</LinearLayout>
